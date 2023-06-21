@@ -42,21 +42,6 @@ public class WriteDataIntoExcel {
 		System.out.println("data written");
 		wb.close();
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }
