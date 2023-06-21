@@ -2,7 +2,7 @@ package genericUtilities;
 
 /**
  * This interface has all constants
- * @author Chaitra M
+ * @author bandu
  *
  */
 public interface IConstantsUtility {

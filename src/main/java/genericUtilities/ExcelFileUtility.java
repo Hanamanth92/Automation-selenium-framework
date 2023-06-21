@@ -12,7 +12,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 /**
  * This method consists of generic methods related to Excel Sheet
- * @author Chaitra M
+ * @author bandu
  *
  */
 public class ExcelFileUtility {
@@ -84,23 +84,5 @@ public class ExcelFileUtility {
 		
 		return data;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }
