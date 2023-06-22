@@ -49,7 +49,7 @@ public class CreateMultipleOrganizationWithIndTest extends BaseClass{
 
 		// Step 8: Validate
 		OrganizationInfoPage oip = new OrganizationInfoPage(driver);
-		String orgHeader = oip.getHeader();
+		String orgHeader = oip.getOrgHeader();
         Assert.assertTrue(orgHeader.contains(ORGNAME));
 		
 
