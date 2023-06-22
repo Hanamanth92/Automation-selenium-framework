@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-21T17:01:20 IST" name="Default suite" finished-at="2023-06-21T17:04:10 IST" duration-ms="169611">
+  <suite started-at="2023-06-22T11:14:12 IST" name="Default suite" finished-at="2023-06-22T11:17:01 IST" duration-ms="169569">
     <groups>
       <group name="RegressionSuite">
         <method signature="CreateContactWithOrganizationTest.createContactWithOrgTest()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" name="createContactWithOrgTest" class="vtiger.ContactsTests.CreateContactWithOrganizationTest"/>
       </group> <!-- RegressionSuite -->
     </groups>
-    <test started-at="2023-06-21T17:01:20 IST" name="Default test" finished-at="2023-06-21T17:04:10 IST" duration-ms="169611">
+    <test started-at="2023-06-22T11:14:12 IST" name="Default test" finished-at="2023-06-22T11:17:01 IST" duration-ms="169569">
       <class name="vtiger.ContactsTests.CreateContactWithOrganizationTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-21T17:01:20 IST" name="bsConfig" finished-at="2023-06-21T17:01:20 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-22T11:14:12 IST" name="bsConfig" finished-at="2023-06-22T11:14:12 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-21T17:01:20 IST" name="bcConfig" finished-at="2023-06-21T17:04:10 IST" duration-ms="169530" status="FAIL">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-22T11:14:12 IST" name="bcConfig" finished-at="2023-06-22T11:17:01 IST" duration-ms="169482" status="FAIL">
           <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
             <message>
               <![CDATA[org.apache.hc.client5.http.HttpHostConnectException: Connect to https://raw.githubusercontent.com:443 [raw.githubusercontent.com/49.44.79.236, raw.githubusercontent.com/2405:200:1607:2820:41:0:0:36] failed: Connection timed out: no further information]]>
@@ -94,11 +94,11 @@ at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1198)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-21T17:04:10 IST" name="bmConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687347250106" status="SKIP">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-22T11:17:01 IST" name="bmConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687412821897" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="createContactWithOrgTest()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-21T17:04:10 IST" name="createContactWithOrgTest" finished-at="2023-06-21T17:04:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="createContactWithOrgTest()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-22T11:17:01 IST" name="createContactWithOrgTest" finished-at="2023-06-22T11:17:01 IST" duration-ms="0" status="SKIP">
           <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
             <message>
               <![CDATA[org.apache.hc.client5.http.HttpHostConnectException: Connect to https://raw.githubusercontent.com:443 [raw.githubusercontent.com/49.44.79.236, raw.githubusercontent.com/2405:200:1607:2820:41:0:0:36] failed: Connection timed out: no further information]]>
@@ -178,15 +178,15 @@ at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1198)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContactWithOrgTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-21T17:04:10 IST" name="amConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687347250115" status="SKIP">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-22T11:17:01 IST" name="amConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687412821908" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-21T17:04:10 IST" name="bmConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687347250118" status="SKIP">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-22T11:17:01 IST" name="bmConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687412821910" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="demo()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-21T17:04:10 IST" name="demo" finished-at="2023-06-21T17:04:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="demo()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-22T11:17:01 IST" name="demo" finished-at="2023-06-22T11:17:01 IST" duration-ms="0" status="SKIP">
           <exception class="io.github.bonigarcia.wdm.config.WebDriverManagerException">
             <message>
               <![CDATA[org.apache.hc.client5.http.HttpHostConnectException: Connect to https://raw.githubusercontent.com:443 [raw.githubusercontent.com/49.44.79.236, raw.githubusercontent.com/2405:200:1607:2820:41:0:0:36] failed: Connection timed out: no further information]]>
@@ -266,15 +266,15 @@ at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:1198)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-21T17:04:10 IST" name="amConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687347250124" status="SKIP">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-22T11:17:01 IST" name="amConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687412821917" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-21T17:04:10 IST" name="acConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687347250126" status="SKIP">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-22T11:17:01 IST" name="acConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1687412821919" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-21T17:04:10 IST" name="asConfig" finished-at="2023-06-21T17:04:10 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.ContactsTests.CreateContactWithOrganizationTest@2d710f1a]" started-at="2023-06-22T11:17:01 IST" name="asConfig" finished-at="2023-06-22T11:17:01 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asConfig -->
