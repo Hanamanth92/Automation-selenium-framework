@@ -24,7 +24,7 @@ public class OrganizationInfoPage {
 	 * This method will get the organization header text
 	 * @return
 	 */
-	public String getHeader()
+	public String getOrgHeader()
 	{
 		return OrgHeaderText.getText();
 	}
