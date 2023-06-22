@@ -37,7 +37,7 @@ public class CreateContactWithOrganizationTest extends BaseClass {
 		
 		// Step 6: Validate for Organization
 		OrganizationInfoPage oip = new OrganizationInfoPage(driver);
-		String orgHeader = oip.getHeader();
+		String orgHeader = oip.getOrgHeader();
 		Assert.assertTrue(orgHeader.contains(ORGNAME));//fail
 
 		// Step 7: Navigate to Contacts link
